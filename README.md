@@ -41,7 +41,7 @@ El tercer fichero (y más importante) es el que controla la lógica de creación
 
 Lo primero que cabe destacar es la utilización de un diccionario en el que se guardan intentando escalar los valores reales de cada planeta a esta simulación con sus lunas incluidas si este tuviera. A continuación un ejemplo de un elemento del diccionario:
 
-´´´
+```
 earth: {
     size: 0.06,
     distance: 14,
@@ -63,7 +63,7 @@ earth: {
       },
     },
   },
-´´´
+```
 
 Los valores que se guardan son:
 - Planeta elegido
@@ -82,3 +82,37 @@ Los valores que se guardan son:
         - Velocidad de rotación
         - Textura de la luna
         - Posición en el array de lunas
+
+A continuación se explicarán las distintas funciones para crear los astros:
+  - createStar()
+  - createPlanet()
+  - createMoon()
+  - CreateDefaultMoon()
+  - CreateRing()
+  - CreateAsteroid()
+  - CreateAsteroidBelt()
+  - UpdateAsteroidBelt()
+
+### createStar()
+
+Función utilizada para crear el Sol en el centro del Sistema solar. Como elemento a destacar, se le añade una fuente de luz puntual en mitad del sol para que la aplique a todo el sistema
+
+### createPlanet()
+
+Como en la mayoría de estas funciones el primer paso es cargar la textura del planeta que se va a crear y a continuación se comprueba si tiene o no un mapa de rugosidad y en caso de tenerlo se le aplica. Además también comprueba si se trata de La Tierra para añadirle un mapa especular para detectar brillos en el mar, una textura de noche para las zonas en las que no le da el sol y una esfera de nubes por encima del propio planeta.
+Lo siguiente es guardar algunas propiedades de la esfera que se usarán posteriormente como por ejemplo puede ser la velocidad de rotación, se añade la esfera a la escena y se procede a crear las órbitas del planeta.
+
+### createMoon()
+
+Muy parecida a la anterior, pero como punto diferente, se añade un pivote que marcará al planeta para saber sobre objeto rotará la luna.
+
+### createDefaultMoon()
+
+Función que crea una luna pero lo hace con valores por defecto pues es la función que se usará al hacer clic sobre algún planeta para crear una luna en él
+
+### createRing()
+
+Crea los anillos que tendrán tanto Saturno como Urano. Se les añade una textura y un mapa alpha para calcular donde están las transparencias en los anillos.
+Hace uso de otra función createRingGeoemetry() a la que se le pasan los radios interno y externo para poder crear la geometría del anillo
+
+### createAsteroid()
