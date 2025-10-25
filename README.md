@@ -185,7 +185,7 @@ Función que crea la nave que va rotando por el espacio. se divide en varios obj
 
 <img width="921" height="392" alt="image" src="https://github.com/user-attachments/assets/9d0eac68-86d8-49ff-b6a1-e90eadf60e92" />
 
-## Index.js
+## 4. Index.js
 
 Fichero principal de la aplicación. En la función `init()` se crea la escena, se crea la textura del espacio que es una esfera invertida que envuelve todo, se crea la cámara, la nave y los planetas, se añaden los paneles, los controles de la cámara, el sol, los anillos, los asteroides y la luz del sol.
 
@@ -193,6 +193,6 @@ En el `animationLoop()` que se ejecuta cada frame se calcula el movimiento de to
 
 También tiene la función encargada de al hacer clic en un planeta se cree automáticamente una luna de tamaño y en posición aleatorios.
 
-## Video de demostración
+## 5. Video de demostración
 
 https://drive.google.com/file/d/1W_StYAxiNjl3IvOK8wjnk7wHus36Jc9H/view?usp=sharing
