@@ -9,7 +9,7 @@ Se empezará explicando qué se ha hecho. dividiendo la documentación por fiche
 2. [Panel.js](#2-paneljs)
 3. [Planet.js](#3-planetjs)
 4. [Index.js](#4-indexjs)
-5. [Video de demostración](#5-video-de-demostracion)
+5. [Video de demostración](#5-vídeo-de-demostración)
 
 ## 1. Camera.js
 
