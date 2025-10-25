@@ -193,6 +193,6 @@ En el `animationLoop()` que se ejecuta cada frame se calcula el movimiento de to
 
 También tiene la función encargada de al hacer clic en un planeta se cree automáticamente una luna de tamaño y en posición aleatorios.
 
-## 5. Video de demostración
+## 5. Vídeo de demostración
 
 https://drive.google.com/file/d/1W_StYAxiNjl3IvOK8wjnk7wHus36Jc9H/view?usp=sharing
