@@ -9,7 +9,7 @@ Se empezará explicando qué se ha hecho. dividiendo la documentación por fiche
 2. [Panel.js](#paneljs)
 3. [Planet.js](#planetjs)
 4. [Index.js](#indexjs)
-5. [Video de demostración](#video-de-demostracion)
+5. [Video de demostración](#video-de-la-demostracion)
 
 ## 1. Camera.js
 
@@ -195,3 +195,4 @@ También tiene la función encargada de al hacer clic en un planeta se cree auto
 
 ## Video de demostración
 
+https://drive.google.com/file/d/1W_StYAxiNjl3IvOK8wjnk7wHus36Jc9H/view?usp=sharing
