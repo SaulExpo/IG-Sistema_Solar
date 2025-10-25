@@ -1,7 +1,7 @@
 # IG-Sistema_Solar
 Sistema solar creado en THREE.js para la asignatura de Informática Gráfica
 
-Se empezará explicando qué se ha hecho. dividiendo la documentación por fichero empleado
+Enlace al CodeSandbox: https://codesandbox.io/p/sandbox/cocky-shannon-wpqp8m
 
 ## Contenidos
 
@@ -196,3 +196,6 @@ También tiene la función encargada de al hacer clic en un planeta se cree auto
 ## 5. Vídeo de demostración
 
 https://drive.google.com/file/d/1W_StYAxiNjl3IvOK8wjnk7wHus36Jc9H/view?usp=sharing
+
+
+Saúl Expósito Morales
