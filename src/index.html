@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Práctica S6 IG</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="info">three.js - sol y planetas</div>
+    <button id="togglePanel" class="btn">Planets ▼</button>
+    <div id="controlesPlanetasDiv" class="hidden">
+      <button id="global" class="btn">Global</button>
+      <button id="desanclar" class="btn">Unlock</button>
+    </div>
+    <div id="helpPanel" class="show">
+      <h2>Welcome to the Solar System Simulator</h2>
+      <p>
+        Explore the 3D Solar System and discover all the planets, moons, and
+        more!
+      </p>
+
+      <h3>Basic Controls</h3>
+      <ul>
+        <li><b>W / A / S / D</b> — Move the camera</li>
+        <li>
+          <b>Mouse</b> — Rotate the view (hold <i>left click</i>) / Pan the
+          camera (hold <i>right click</i>)
+        </li>
+        <li><b>Mouse wheel</b> — Zoom in and out</li>
+        <li>
+          <b>Planets Button</b> — On the top-left corner, select a planet to
+          zoom in, or one of its moons
+        </li>
+        <li><b>“Global” Button</b> — Return to the original system view</li>
+        <li>
+          <b>“Unlock” Button</b> — Release the camera from the selected planet
+        </li>
+        <li>
+          <b>“Ship” Button</b> — On the bottom-left corner, follow a spaceship
+          orbiting the system
+        </li>
+        <li>
+          <b>“Orbits” Button</b> — On the top-right corner, toggle orbit
+          visualization
+        </li>
+        <li><b>“Help” Button</b> — Reopen this help panel</li>
+      </ul>
+
+      <h3>Tips</h3>
+      <ul>
+        <li>You can add new moons to a planet by clicking on it</li>
+        <li>
+          Take your time — each planet has detailed textures worth exploring!
+        </li>
+      </ul>
+      <h4 id="author">Created by: Saúl Expósito Morales</h4>
+    </div>
+    <button id="toggleOrbits" class="btn">Deactivate Orbits</button>
+    <button id="ship" class="btn">Ship</button>
+    <button id="help" class="btn">Help</button>
+    <div id="moonPanel"></div>
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </body>
+</html>
