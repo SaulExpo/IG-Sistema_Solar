@@ -5,11 +5,11 @@ Se empezará explicando qué se ha hecho. dividiendo la documentación por fiche
 
 ## Contenidos
 
-1. [Camera.js](#camerajs)
-2. [Panel.js](#paneljs)
-3. [Planet.js](#planetjs)
-4. [Index.js](#indexjs)
-5. [Video de demostración](#video-de-la-demostracion)
+1. [Camera.js](#1-camerajs)
+2. [Panel.js](#2-paneljs)
+3. [Planet.js](#3-planetjs)
+4. [Index.js](#4-indexjs)
+5. [Video de demostración](#5-video-de-demostracion)
 
 ## 1. Camera.js
 
